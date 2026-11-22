@@ -9,4 +9,6 @@ Public static site for HypeClip on GitHub Pages: `index.html`, `privacy.html`, `
 - Small targeted edits. No refactors, renames or "cleanup" that weren't asked for.
 - Run only the check below for what you changed. Same error twice → stop and explain.
 - No subagents, browser or screenshots unless asked. Short replies: what changed + which files.
+- Library/API questions: use Context7 automatically for current docs (HTML/CSS) instead of guessing from memory.
+- Whole-file reads over 60 KB are blocked by `.claude/hooks/big_file_guard.py`; grep, then read with offset/limit.
 - Commit/push only when asked. If you change the stack, commands or folder layout, update this file.
